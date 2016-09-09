@@ -43,7 +43,7 @@ The `-filter` option shows only those messages, which match every single key/val
 
 Filter and formatting may be specified as comma separated list. The first found field gets printed/filtered.
 
-Setting the format string to an empty string (`""`) makes logstash-kafka-tail printing the raw logstash json object.
+Setting the format string to raw (`raw`) makes logstash-kafka-tail printing the raw logstash json object.
 
 Logging to Kafka
 ----------------

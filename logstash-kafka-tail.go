@@ -85,6 +85,9 @@ func main() {
 		os.Exit(1)
 	}
 
+	if formatString == "raw" {
+		formatString = ""
+	}
 	formatter := NewFormatter(formatString)
 
 	var printer Printer
